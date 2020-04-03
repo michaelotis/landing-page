@@ -8,6 +8,10 @@ $big-circle-radius: 544px;
 $right-panel-width: 128px;
 $tablet_point: 1024px;
 
+body {
+  overflow: hidden;
+}
+
 @mixin full_screen($zIndex) {
   position: fixed;
   left: 0;
